@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+nav{
+    width: 100%;
+    padding: 10px 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background: #ffffff8d;
+}
+
+.logo{
+    margin-left: 2%;
+}
+
+.me{
+    margin-right: 2%;
+    margin-top: 0.2%;
+
+}
+
+nav ul{
+    margin-right: 1%;
+    text-align: right;
+    width: 100%;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    padding: 10px;
+    width: auto;
+}
+
+nav ul li:hover
+{
+    background-color: #e9f9fe;
+    border-radius: 3px;
+}
+nav ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+.hero.container{
+    display: flex;
+    justify-content: center;
+}
+
+.hero .container .box{
+    position: relative;
+    width: calc(400px - 106px);
+    height: calc(400px - 110px);
+    background-color: rgb(215, 234, 250);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hero .container .box .logos
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.hero .container .box .logos img
+{
+    max-width: 100%;
+    transition: 2s;
+}
+
+.hero .container .box:hover .logos img
+{
+    transform: scale(1.2);
+}
+
+
+.hero .container .box .inside{
+    position: absolute;
+    width: calc(400px - 140px);
+    height: calc(400px - 195px);
+    background-color: #ffffff;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+    top: 50px;
+    transform: scaleY(0);
+    transition: .5s;
+}
+
+.hero .container .box:hover .inside {
+    transform: scaleY(1);
+}
+.text-typing {
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #feffff;
+}
+
+.text-typing p {
+    margin: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(22, end) forwards,
+        blink 1s infinite;
+}
