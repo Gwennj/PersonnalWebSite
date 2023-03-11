@@ -1,13 +1,38 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="eng">
 <header>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css">
+    <title>Gwennan Jarno website</title>
+    <link rel="stylesheet" href="style_index.css">
+    <style>
+        @keyframes typing {
+            0% {
+                width: 0%
+            }
+    
+            100% {
+                width: 100%
+            }
+        }
+    
+        @keyframes blink {
+    
+            0%,
+            100% {
+                border-right: 2px solid transparent;
+            }
+    
+            50% {
+                border-right: 2px solid #222;
+            }
+        }
+    </style>
 </header>
+
 <body>
     <div class="hero">
         <nav>
-            <img src="logo.png" class="logo" style="width: 2cm;"/>
+            <img src="logo.png" class="logo" style="width: 2cm;" />
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="professional.html">Work</a></li>
@@ -16,12 +41,33 @@
             </ul>
             <img src="me.png" class="me" style="width: 1.7cm;" />
         </nav>
-        <h1>Gwennan Jarno</h1>
     </div>
-    
-</body>
-<footer>
+        <section>
+            <h3>Gwennan Jarno</h3>
+        </section>
+        <script type="text/javascript">
+            function createBubble(){
+                const section = document.querySelector('section')
+                const createElement = document.createElement('span')
+                var size =Math.random() * 60;
+                createElement.style.width=20+size+ 'px';
+                createElement.style.height =20+size + 'px';
+                createElement.style.left= Math.random() *innerWidth +"px";
+                section.appendChild(createElement);
+                setTimeout(()=>
+                {
+                    createElement.remove()
+                },4000)
+                
+            }
+    setInterval(createBubble, 50)
+        </script>
 
-</footer>
+    </div>
+    <div class="footer">
+        <p>Website made with love for final assignment</p>
+        <h5>Copyright © 2023 Gwennan Jarno</h5>
+    </div>
+</body>
 
 </html>
