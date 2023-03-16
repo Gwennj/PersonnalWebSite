@@ -64,10 +64,11 @@ nav ul li a {
     text-align: center;
 }
 
-.hero .lycée{
+.hero .lycée {
     height: 340px;
 }
-.hero .lycée .box{
+
+.hero .lycée .box {
     position: relative;
     float: left;
     margin: 15px;
@@ -76,14 +77,14 @@ nav ul li a {
     border-radius: 10px;
 }
 
-.hero .lycée .box .text
-{
+.hero .lycée .box .text {
     margin-top: 10px;
 }
 
 .hero .epita {
     height: 320px;
 }
+
 .hero .epita .box {
     position: relative;
     float: left;
@@ -100,6 +101,7 @@ nav ul li a {
 .hero .KHU {
     height: 350px;
 }
+
 .hero .KHU .box {
     position: relative;
     float: left;
