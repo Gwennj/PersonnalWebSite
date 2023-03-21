@@ -64,62 +64,11 @@ nav ul li a {
     text-align: center;
 }
 
-.hero .lycée {
-    height: 340px;
-}
-
-.hero .lycée .box {
-    position: relative;
-    float: left;
-    margin: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.hero .lycée .box .text {
-    margin-top: 10px;
-}
-
-.hero .epita {
-    height: 320px;
-}
-
-.hero .epita .box {
-    position: relative;
-    float: left;
-    margin: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.hero .epita .box .text {
-    margin-top: 10px;
-}
-
-.hero .KHU {
-    height: 350px;
-}
-
-.hero .KHU .box {
-    position: relative;
-    float: left;
-    margin: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.hero .KHU .box .text {
-    margin-top: 10px;
-}
-
-.hero .NFM {
+.hero .first {
     height: 220px;
 }
 
-.hero .NFM .box {
+.hero .first .box {
     position: relative;
     margin: 15px;
     box-sizing: border-box;
@@ -127,15 +76,15 @@ nav ul li a {
     border-radius: 10px;
 }
 
-.hero .NFM .box .text {
+.hero .first .box .text {
     margin-top: 30px;
 }
 
-.hero .FRAMASOFT {
+.hero .second {
     height: 220px;
 }
 
-.hero .FRAMASOFT .box {
+.hero .second .box {
     position: relative;
     margin: 15px;
     box-sizing: border-box;
@@ -143,22 +92,7 @@ nav ul li a {
     border-radius: 10px;
 }
 
-.hero .FRAMASOFT .box .text {
+.hero .second .box .text {
     margin-top: 30px;
 }
 
-.hero .CARROUF {
-    height: 250px;
-}
-
-.hero .CARROUF .box {
-    position: relative;
-    margin: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.hero .CARROUF .box .text {
-    margin-top: 30px;
-}
